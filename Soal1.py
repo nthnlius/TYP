@@ -44,7 +44,8 @@ def importData(fileName):
                 del(temp)
             return data
 
+'''contoh penggunaan'''
 filenm = "contoh.csv"
 data = importData(filenm)
 mySort(data)
-print (data)
+printData(data)
